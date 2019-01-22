@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="main1.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h1>Thailand Time</h1>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Journal</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Links</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="row">
+			<div class="col">col1</div>
+			<div class="col">col2</div>
+			<div class="col">col3</div>
+		</div>
+
+		<footer>©2019 E&C</footer>
+
+	</body>
+</html>
+
+###CSS page(below)###
+
+body {
+
+}
+
+header {
+	background: #999;
+	color: white;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+}
