@@ -9,37 +9,103 @@
 			<nav>
 				<h1>Thailand Time</h1>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Journal</a></li>
-					<li><a href="#">Photos</a></li>
-					<li><a href="#">Links</a></li>
+					<li><a href="#"><strong>Home</strong></a></li>
+					<li><a href="#"><strong>About</strong></a></li>
+					<li><a href="#"><strong>Journal</strong></a></li>
+					<li><a href="#"><strong>Photos</strong></a></li>
+					<li><a href="#"><strong>Links</strong></a></li>
 				</ul>
 			</nav>
 		</header>
 		<div class="row">
 			<div class="col">col1</div>
 			<div class="col">col2</div>
+		</div>
+
+		<div class="row">
+			<div class="col"><div class="col"><textarea name="text" cols="79" rows="5"></textarea></div></div>
+			<div class="col">col2</div>
+		</div>
+
+		<!--<div class="row">
+			<div class="col">col1</div>
+			<div class="col">col2</div>
 			<div class="col">col3</div>
 		</div>
+		
+		<div class="row">
+			<div class="col">col1</div>
+		</div>
+
+		<div class="row">
+			<div class="col">col1</div>
+		</div> 
+		-->
+			
+
 
 		<footer>©2019 E&C</footer>
 
 	</body>
 </html>
 
-###CSS page(below)###
+
+## CSS (below) ##
 
 body {
-
+	/*background: #EBF5FB;*/
+	background: white;
+	margin: 0;
 }
 
 header {
-	background: #999;
+	font-family: Arial;
+	background: #AED6F1;
 	color: white;
+	padding: 5px 15px;
+}
+
+/*div {
+	width: 48%
+}*/
+
+header h1 {
+	display: inline;
+}
+
+nav ul {
+	display: inline;
 }
 
 nav ul li {
+	font-size: 12px;
+	color: black;
+	/*background: #EBF5FB;*/
+	background: #EBF5FB;
+	border-radius: 5px;
 	display: inline-block;
 	list-style-type: none;
+	padding: 5px 15px;
+}
+
+nav ul li a {
+	color: #999;
+}
+
+.row {
+	clear: both;
+}
+
+.col {
+	background: #EBF5FB;
+	border-radius: 5px;
+	padding: 10px .5%;
+	color: #999;
+	float: left;
+	margin: .5%;
+	width: 48%
+}
+
+footer {
+	clear: both; /* clear floats left and right */
 }
