@@ -20,37 +20,25 @@
 		<div class="row">
 			<div class="col">col1</div>
 			<div class="col">col2</div>
+			<div class="col">col3</div>
 		</div>
 
 		<div class="row">
-			<div class="col"><div class="col"><textarea name="text" cols="79" rows="5"></textarea></div></div>
-			<div class="col">col2</div>
-		</div>
-
-		<!--<div class="row">
-			<div class="col">col1</div>
+			<div class="col"><div class="col"><textarea name="text" cols="86" rows="5"></textarea></div></div>
 			<div class="col">col2</div>
 			<div class="col">col3</div>
 		</div>
 		
 		<div class="row">
 			<div class="col">col1</div>
+			<div class="col">col2</div>
+			<div class="col">col3</div>
 		</div>
-
-		<div class="row">
-			<div class="col">col1</div>
-		</div> 
-		-->
-			
-
-
 		<footer>©2019 E&C</footer>
-
 	</body>
 </html>
 
-
-## CSS (below) ##
+CSS -->
 
 body {
 	/*background: #EBF5FB;*/
@@ -102,8 +90,8 @@ nav ul li a {
 	padding: 10px .5%;
 	color: #999;
 	float: left;
-	margin: .5%;
-	width: 48%
+	margin: 1%;
+	width: 30%
 }
 
 footer {
