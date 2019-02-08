@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="main1.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<header>
@@ -24,7 +25,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col"><div class="col"><textarea name="text" cols="86" rows="5"></textarea></div></div>
+			<div class="col"><div class="col"><textarea name="text" cols="50" rows="5"></textarea></div></div>
 			<div class="col">col2</div>
 			<div class="col">col3</div>
 		</div>
@@ -38,7 +39,7 @@
 	</body>
 </html>
 
-CSS -->
+==== CSS ====
 
 body {
 	/*background: #EBF5FB;*/
@@ -97,3 +98,8 @@ nav ul li a {
 footer {
 	clear: both; /* clear floats left and right */
 }
+
+==== Also made a script.js page for js ==== 
+
+// (blank for now) adding click button with function to countdown days until Thailand and click button for random message, all on
+front page for testing purposes. Will make other pages (About, Journal, etc...) after test.
