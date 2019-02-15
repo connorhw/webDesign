@@ -1,11 +1,17 @@
++++++++++++ index.html +++++++++++++
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<script src="js/script.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
+		<button onclick="revealMessage()">MOTIVATE</button>
+		<p id="hiddenMessage" style="display:none">Quote of the day: There's no change, without a change in routine.<br/><br/>
+		ALSO: If your page isn't working, it's probably a path issue.
+		</p>
 		<header>
 			<nav>
 				<h1>Thailand Time</h1>
@@ -25,7 +31,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col"><div class="col"><textarea name="text" cols="50" rows="5"></textarea></div></div>
+			<div class="col"><div class="col"><textarea name="text" cols="48" rows="5"></textarea></div></div>
 			<div class="col">col2</div>
 			<div class="col">col3</div>
 		</div>
@@ -35,11 +41,13 @@
 			<div class="col">col2</div>
 			<div class="col">col3</div>
 		</div>
+		
 		<footer>©2019 E&C</footer>
 	</body>
 </html>
 
-==== CSS ====
+
++++++++++++++ main.css +++++++++++++++
 
 body {
 	/*background: #EBF5FB;*/
@@ -99,7 +107,8 @@ footer {
 	clear: both; /* clear floats left and right */
 }
 
-==== Also made a script.js page for js ==== 
+++++++++++++ script.js ++++++++++++++++++
 
-// (blank for now) adding click button with function to countdown days until Thailand and click button for random message, all on
-front page for testing purposes. Will make other pages (About, Journal, etc...) after test.
+function revealMessage() {
+	document.getElementById("hiddenMessage").style.display = 'block';
+}
